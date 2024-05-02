@@ -1,0 +1,341 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.header1 {
+  background-color: aliceblue;
+  padding-top: 15px;
+  height: 550px;
+}
+.logo1 {
+  align-items: center;
+  /* padding: 5px; */
+  display: flex;
+  width: 85px;
+  height: 40px;
+  border-radius: 10px;
+}
+.logo1 img {
+  border-radius: 20px;
+  background-color: aliceblue;
+  padding: 3px;
+  width: 30px;
+  height: 30px;
+}
+.logo1 h1 {
+  color: rgb(0, 75, 145);
+  padding-left: 20px;
+}
+.menu1 {
+  display: flex;
+  align-items: center;
+}
+.menuIn1 a {
+  padding-left: 60px;
+}
+.header1 nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.header1 .btns a {
+  cursor: pointer;
+  padding: 8px;
+}
+#select {
+  color: rgb(0, 75, 145);
+  background-color: aliceblue;
+  border: 2px solid rgb(168, 168, 193);
+  padding: 5px;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+.btns select {
+  font-size: 16px;
+}
+.header1 .btns > :nth-child(1) {
+  font-size: 15px;
+  font-weight: 300;
+  margin-right: 20px;
+  border: 2px solid aliceblue;
+  color: blue;
+  background-color: aliceblue;
+}
+.header1 .btns > :nth-child(2) {
+  font-size: 15px;
+  padding: 8px 10px;
+  color: white;
+  background-color: blue;
+  border: 2px solid blue;
+  border-radius: 5px;
+}
+.header1 .title {
+  padding: 80px 0px 0px 180px;
+  height: 500px;
+  width: 650px;
+  color: rgb(42, 42, 103);
+}
+.header1 .title h1 {
+  font-size: 56px;
+}
+.header1 .title > :nth-child(2) {
+  color: rgb(221 97 14);
+}
+.searchBar {
+  display: flex;
+  align-items: center;
+}
+.title img {
+  /* padding-bottom: 10px; */
+  width: 300px;
+  mix-blend-mode: difference;
+  color: aliceblue;
+}
+.search .jobTitle {
+  border: 2px solid gray;
+  padding: 6px;
+  margin: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header1 .title p {
+  padding-top: 10px;
+}
+.header1 .search {
+  padding-top: 10px;
+}
+.search .jobTitle img {
+  mix-blend-mode: difference;
+  width: 19px;
+  background-color: aliceblue;
+  color: aliceblue;
+  border: 2px solid aliceblue;
+  border: 100px;
+}
+.jobTitle input {
+  font-size: 16px;
+  border: 2px solid rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
+  color: rgb(44, 42, 42);
+}
+.search .jobLocation {
+  border: 2px solid gray;
+  padding: 6px;
+
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search .jobLocation img {
+  mix-blend-mode: difference;
+  width: 19px;
+  background-color: aliceblue;
+  color: aliceblue;
+  border: 2px solid aliceblue;
+  border: 100px;
+}
+.jobLocation input {
+  font-size: 16px;
+  border: 2px solid rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
+  color: rgb(44, 42, 42);
+}
+.searchBar button {
+  margin: 10px;
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  border: 2px solid blue;
+  border-radius: 10px;
+}
+.search {
+  background-color: white;
+  margin-top: 40px;
+  padding: 10px;
+}
+.companyLogos {
+  background-color: white;
+  display: grid;
+  /* align-items: center; */
+  justify-content: center;
+  color: rgb(42, 42, 103);
+}
+.logos img {
+  /* mix-blend-mode:difference; */
+  width: 800px;
+  height: 300px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  border: 2px solid white;
+}
+.companyLogos h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.categoryTitle {
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.categoryTitle div {
+  display: flex;
+}
+.categoryTitle div > :nth-child(1) {
+  color: black;
+}
+.categoryTitle div > :nth-child(2) {
+  color: blue;
+}
+.categoryTitle button {
+  cursor: pointer;
+  color: darkblue;
+  background-color: white;
+  border: 2px solid white;
+}
+.categoryContent {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  grid-template-rows: 150px 150px;
+}
+.categoryContent div {
+  cursor: pointer;
+  margin: 10px;
+  border: 2px solid whitesmoke;
+}
+.categoryContent img {
+  padding: 10px;
+  width: 40px;
+  mix-blend-mode: difference;
+  /* background-color: rgb(193, 170, 170); */
+  color: rgb(255, 255, 255);
+  /* border-radius: 50px; */
+}
+.categoryContent h3 {
+  color: rgb(34, 34, 118);
+  padding-bottom: 6px;
+}
+.categoryContent p {
+  color: rgb(92, 92, 156);
+}
+.break {
+  margin-top: 30px;
+  height: 10px;
+  background-color: rgb(212, 217, 222);
+}
+/* Animation for header1 */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.header1 {
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Animation for search bar */
+@keyframes slideIn {
+  from {
+    transform: translateY(-50%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.searchBar {
+  animation: slideIn 0.5s ease-out;
+}
+
+/* Animation for category content */
+@keyframes scaleIn {
+  from {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.categoryContent {
+  animation: scaleIn 0.5s ease-out;
+}
+.jobTitle {
+  transition: all 0.5s ease;
+}
+.jobTitle:hover {
+  transform: scale(1.1);
+}
+@keyframes example {
+  0% {
+    background-color: rgb(255, 255, 255);
+  }
+  50% {
+    background-color: rgb(255, 255, 255);
+  }
+  100% {
+    background-color: rgb(255, 255, 255);
+  }
+}
+
+.jobTitle {
+  animation-name: example;
+  animation-duration: 4s;
+}
+/* Transitions for category title */
+.categoryTitle div {
+  transition: color 0.3s ease-in-out;
+}
+
+.categoryTitle button {
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out,
+    border-color 0.3s ease-in-out;
+}
+
+/* Transitions for category content */
+.categoryContent div {
+  transition: transform 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+/* Keyframe animation for category content */
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+.categoryContent {
+  animation: fadeInUp 0.5s ease-out;
+}
+.cta {
+  padding: 30px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 
+Signup Css
+*/
+
+
+

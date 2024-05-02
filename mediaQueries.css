@@ -1,0 +1,382 @@
+/* Your existing CSS code goes here */
+
+/* Media queries for screens up to 840px */
+@media screen and (max-width: 840px) {
+    .header1 {
+      padding-top: 10px;
+      height: auto;
+    }
+  
+    .header1 .title {
+      padding: 40px 20px;
+      width: auto;
+      text-align: center;
+    }
+  
+    .header1 .title h1 {
+      font-size: 36px;
+    }
+  
+    .searchBar {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  
+    .search .jobTitle,
+    .search .jobLocation {
+      margin: 10px 0;
+    }
+  
+    .searchBar button {
+      margin: 10px 0;
+    }
+  
+    .categoryContent {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+  
+    .logos img {
+      width: 100%;
+      height: auto;
+    }
+}
+  /* Screen sizes 500px to 730px */
+@media only screen and (min-width: 500px) and (max-width: 730px) {
+    .header1 {
+      height: 600px;
+    }
+    .logo1 {
+      width: 65px;
+      height: 30px;
+    }
+    .logo1 img {
+      width: 25px;
+      height: 25px;
+    }
+    .logo1 h1 {
+      padding-left: 10px;
+    }
+    .menu1 {
+      flex-direction: column;
+    }
+    .menuIn1 a {
+      padding-left: 0;
+      padding-top: 10px;
+    }
+    .header1 .btns {
+      flex-direction: column;
+    }
+    .header1 .btns a {
+      padding: 5px;
+    }
+    .header1 .title {
+      padding: 50px 0px 0px 50px;
+      height: 400px;
+      width: 400px;
+    }
+    .header1 .title h1 {
+      font-size: 36px;
+    }
+    .searchBar {
+      flex-direction: column;
+    }
+    .search .jobTitle {
+      margin: 5px;
+    }
+    .search .jobLocation {
+      margin: 5px;
+    }
+    .companyLogos {
+      height: 200px;
+    }
+    .logos img {
+      width: 400px;
+      height: 200px;
+    }
+    .categoryTitle {
+      padding-top: 30px;
+      font-size: 20px;
+    }
+    .categoryContent {
+      grid-template-columns: 150px 150px;
+      grid-template-rows: 100px 100px;
+    }
+    .categoryContent div {
+      margin: 5px;
+    }
+    .cta {
+      padding: 20px 0;
+    }
+  }
+  /* Media queries for max screen size of 200px */
+
+@media only screen and (max-width: 200px) {
+    /* Header styles */
+   .header1 {
+      height: 300px;
+      padding-top: 10px;
+    }
+   .logo1 {
+      width: 50px;
+      height: 30px;
+    }
+   .logo1 img {
+      width: 20px;
+      height: 20px;
+    }
+   .menu1 {
+      flex-direction: column;
+    }
+   .menuIn1 a {
+      padding-left: 10px;
+    }
+   .btns {
+      flex-direction: column;
+    }
+   .btns a {
+      padding: 5px;
+    }
+    #select {
+      font-size: 12px;
+    }
+  
+    /* Title styles */
+   .title {
+      padding: 20px 0px 0px 10px;
+      height: 200px;
+      width: 150px;
+    }
+   .title h1 {
+      font-size: 24px;
+    }
+   .title img {
+      width: 100px;
+    }
+  
+    /* Search styles */
+   .searchBar {
+      flex-direction: column;
+    }
+   .jobTitle {
+      padding: 5px;
+    }
+   .jobLocation {
+      padding: 5px;
+    }
+   .searchBar button {
+      padding: 5px;
+    }
+  
+    /* Company logos styles */
+   .companyLogos {
+      padding: 10px;
+    }
+   .logos img {
+      width: 150px;
+      height: 100px;
+    }
+  
+    /* Category styles */
+   .categoryTitle {
+      padding-top: 20px;
+    }
+   .categoryContent {
+      grid-template-columns: 100px 100px;
+      grid-template-rows: 100px 100px;
+    }
+   .categoryContent div {
+      margin: 5px;
+    }
+   .categoryContent img {
+      width: 20px;
+    }
+  
+    /* CTA styles */
+   .cta {
+      padding: 10px 0;
+    }
+    .cta img{
+        width: 150px;
+    }
+  }
+  /* Media queries for 250px screen size */
+
+@media only screen and (max-width: 250px) {
+    /* Header styles */
+   .header1 {
+      height: 350px;
+      padding-top: 10px;
+    }
+   .logo1 {
+      width: 40px;
+      height: 20px;
+    }
+   .logo1 img {
+      width: 15px;
+      height: 15px;
+    }
+   .menu1 {
+      flex-direction: column;
+    }
+   .menuIn1 a {
+      padding-left: 10px;
+    }
+   .btns {
+      flex-direction: column;
+    }
+   .btns a {
+      padding: 5px;
+    }
+    #select {
+      font-size: 12px;
+    }
+  
+    /* Title styles */
+   .title {
+      padding: 20px 0px 0px 10px;
+      height: 250px;
+      width: 200px;
+    }
+   .title h1 {
+      font-size: 24px;
+    }
+   .title img {
+      width: 150px;
+    }
+  
+    /* Search styles */
+   .searchBar {
+      flex-direction: column;
+    }
+   .jobTitle {
+      padding: 5px;
+    }
+   .jobLocation {
+      padding: 5px;
+    }
+   .searchBar button {
+      padding: 5px;
+    }
+  
+    /* Company logos styles */
+   .companyLogos {
+      padding: 10px;
+    }
+   .logos img {
+      width: 150px;
+      height: 100px;
+    }
+  
+    /* Category styles */
+   .categoryTitle {
+      padding-top: 20px;
+    }
+   .categoryContent {
+      grid-template-columns: 100px 100px;
+      grid-template-rows: 100px 100px;
+    }
+   .categoryContent div {
+      margin: 5px;
+    }
+   .categoryContent img {
+      width: 20px;
+    }
+  
+    /* CTA styles */
+    .cta img{
+        width: 200px;
+    }
+   .cta {
+      padding: 10px 0;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    /* Adjustments for screen sizes up to 400px */
+  
+    .logo1 {
+      width: 70px; /* Adjust logo container width */
+      height: 35px; /* Adjust logo container height */
+    }
+  
+    .logo1 img {
+      width: 25px; /* Adjust logo image size */
+      height: 25px; /* Adjust logo image size */
+    }
+  
+    .logo1 h1 {
+      font-size: 18px; /* Adjust logo text size */
+      padding-left: 15px; /* Adjust logo text padding */
+    }
+  
+    .menuIn1 a {
+      padding-left: 40px; /* Adjust menu item padding */
+    }
+  
+    .header1 .title {
+      padding: 50px 0 0 20px; /* Adjust title padding */
+      width: auto; /* Allow title to adjust its width */
+    }
+  
+    .header1 .title h1 {
+      font-size: 40px; /* Adjust title text size */
+    }
+  
+    .header1 .title p {
+      font-size: 12px; /* Adjust paragraph text size */
+      padding-top: 5px; /* Adjust paragraph padding */
+    }
+  
+    .title img {
+      width: 200px; /* Adjust image width */
+    }
+  
+    .searchBar {
+      margin: 20px 10px; /* Adjust search bar margin */
+    }
+  
+    .jobTitle {
+      margin: 10px 5px; /* Adjust job title margin */
+    }
+  
+    .jobTitle input,
+    .jobLocation input {
+      font-size: 14px; /* Adjust input font size */
+    }
+  
+    .searchBar button {
+      margin: 10px 5px; /* Adjust button margin */
+      padding: 8px; /* Adjust button padding */
+    }
+  
+    .categoryTitle {
+      padding-top: 30px; /* Adjust category title padding */
+    }
+  
+    .categoryContent {
+      grid-template-columns: 180px; /* Adjust grid columns */
+      grid-template-rows: 130px; /* Adjust grid rows */
+    }
+  
+    .categoryContent div {
+      margin: 5px; /* Adjust content div margin */
+    }
+  
+    .categoryContent img {
+      width: 30px; /* Adjust image size */
+      padding: 5px; /* Adjust image padding */
+    }
+  
+    .categoryContent h3 {
+      font-size: 14px; /* Adjust heading size */
+      padding-bottom: 4px; /* Adjust heading padding */
+    }
+  
+    .categoryContent p {
+      font-size: 10px; /* Adjust paragraph size */
+    }
+  
+    .cta {
+      padding: 20px 0; /* Adjust call-to-action padding */
+    }
+  }
+  
